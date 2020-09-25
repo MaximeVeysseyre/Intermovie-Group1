@@ -6,5 +6,5 @@ class Credentials():
     TITLE_BASICS = r'title.basics.tsv'
     TITLE_AKAS = r'title.akas.tsv'
     TITLE_PRINCIPALS = r'title.principals.tsv'
-    TITLE_RATINGS = r'titles.ratings.tsv'
+    TITLE_RATINGS = r'title.ratings.tsv'
     NAME_BASICS = r'name.basics.tsv'
