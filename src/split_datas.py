@@ -16,9 +16,8 @@ def split_datas(filename, columnwanted):
     print(CURATED_LOCAL_PATH)
     csv.field_size_limit(10000000)
 
-    with open(RAW_LOCAL_PATH + filename, encoding='utf-8') as file_stream:    
+    with open(RAW_LOCAL_PATH + filename, encoding='utf-8') as file_stream:
         file_stream_reader = csv.DictReader(file_stream, delimiter='\t')
-        
         open_files_references = {}
 
         for row in file_stream_reader:
@@ -29,7 +28,7 @@ def split_datas(filename, columnwanted):
                 print (CURATED_LOCAL_PATH + '{}.csv'.format(nameoffile))
                 output_file = open(CURATED_LOCAL_PATH + '{}.csv'.format(nameoffile), 'w', encoding='utf-8', newline='')
                 dictionary_writer = csv.DictWriter(output_file, fieldnames=file_stream_reader.fieldnames)
-                # dw.writeheader()
+                dictionary_writer.writeheader()
                 open_files_references[nameoffile] = output_file, dictionary_writer
             # Always write the row
             open_files_references[nameoffile][1].writerow(row)
