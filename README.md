@@ -34,12 +34,12 @@ To function, the NoteBook will need the following tree structure (You must creat
 To start the project, you will then just have to open the "main.ipynb" file and launch the cells in order, if you see the paths of the created folders and files appear, everything is working correctly, otherwise, repeat the "Installation" part of this Readme (see above).
 
 
-# Licence
+## Licence
 
 This invaluable software is provided to you free of charge.
 
 
-# Authors
+## Authors
 
 Maxime Veysseyre
 Thibault Goutorbe
