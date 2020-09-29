@@ -42,4 +42,5 @@ This invaluable software is provided to you free of charge.
 ## Authors
 
 Maxime Veysseyre
+
 Thibault Goutorbe
