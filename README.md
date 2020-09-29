@@ -1,29 +1,45 @@
-# Intermovie-Group1
+# Intermovie Project - Group 1
 
-#Introduction:
-Le projet à pour but de réaliser 4 requêtes sur un jeu de données
-en rapport avec le monde du cinéma.
-Les requêtes s'effectueront par le biais d'un notebook.
+## Introduction
 
-
-#Pré-requis:
-Un ordinateur
-Un IDE capable de lire les fichiers de noteboook écrit en python (ou Jupyter Notebook)
+The project aims to carry out four queries on a dataset related to the world of cinema.
+Requests will be made through a NoteBook.
 
 
-#Installation:
-Pour fonctionner, le notebook aura besoin de l'arborescence suivant (créez les dossiers et intrégrer les fichiers fourni à au bon endroit, comme indiqué ci-dessous):
--Un dossier contentant: le fichier 'main.ipynb' + un dossier 'data' + un dossier 'src
--Le dossier 'data' devra contenir les 3 dossiers suivants: 'CURATED' 'RAW' 'REQUESTS', et le fichier 'RAW' devra contenir les datasets de base après leur dezippage.
--Le dossier 'src' devra lui contenir les fichiers 'credentials.py' et 'split_datas.py'
+## Prerequisites
 
-#Démarrage:
-Pour lancer le projet il vous suffira ensuite d'ouvrir le fichier 'main.ipynb' et de lancer les cellules dans l'ordre, si vous voyez apparaitre les chemins des dossiers et fichiers créés, c'est que tout fonctionne correctement, sinon, recommencez la partie '#Installation' de ce readme située juste au dessus.
-
-#Auteurs:
--Maxime Veysseire
--Thibault Goutorbe
+A computer.
+An IDE capable of reading NoteBook files written in python (.ipynb file).
 
 
-#License:
-Ce logiciel inéstimable vous est offert gracieusement.
+## Installation
+
+To function, the NoteBook will need the following tree structure (You must create and integrate the folders as indicated below):
+
+- A "data" folder and a "src" folder at the root of the project (At the same tree level as the "main.ipynb" file).
+
+- The "data" folder must contain the following three folders: "CURATED", "RAW" and "REQUESTS".
+
+- The "RAW" folder must contain the basic datasets after their extraction (.tsv files).
+
+- The "src" folder contains our utility modules: "credentials.py" and "split_datas.py".
+
+- The "REQUESTS" folder will contain the CSV files where the requests will be stored when they are executed.
+
+- The "CURATED" folder will contain the sorted CSV files after using the "split_datas" function within the "main.ipynb" NoteBook.
+
+
+## Start-up
+
+To start the project, you will then just have to open the "main.ipynb" file and launch the cells in order, if you see the paths of the created folders and files appear, everything is working correctly, otherwise, repeat the "Installation" part of this Readme (see above).
+
+
+# Licence
+
+This invaluable software is provided to you free of charge.
+
+
+# Authors
+
+Maxime Veysseyre
+Thibault Goutorbe
