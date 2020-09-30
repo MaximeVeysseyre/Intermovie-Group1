@@ -1,2 +1,5 @@
-data/
+data/RAW/*
+data/CURATED/*
+data/REQUESTS/*
+!data/**/.gitkeep
 
